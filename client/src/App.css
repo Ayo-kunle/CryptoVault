@@ -16,12 +16,11 @@
 .task {
   margin-bottom: 30px;
   font-size: 100px;
-  
 }
 
 .list-group {
-  width: 1000px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
 }
 .element {
   width: 600px;
@@ -30,7 +29,7 @@
   overflow-wrap: break-word;
 }
 
-.vcolor{
+.vcolor {
   font-size: 75px;
   margin-bottom: 50px;
   padding-top: 50px;
