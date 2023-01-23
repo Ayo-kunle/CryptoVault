@@ -1,0 +1,24 @@
+.modaly {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(179, 5, 173, 0.759);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 500px !important;
+}
+
+.modal-footer {
+  margin-top: 10px;
+}
+
+.modal-title {
+  margin: auto;
+}
