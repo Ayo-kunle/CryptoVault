@@ -167,10 +167,11 @@ function App() {
             <h1 className="task">CryptoVault</h1>
             <div>
               <img
+                className="logo-app"
                 src={logo}
                 alt="CryptoVault Logo"
-                width="200px"
-                height="200"
+                width="45px"
+                height="45px"
               />
             </div>
             <p>Welcome {signerAddress?.substring(0, 10)}...</p>
@@ -190,12 +191,14 @@ function App() {
                       </div>
 
                       <div className="d-flex gap-4 col-md-6">
-                        <button
-                          onClick={() => displayModal(symbol)}
-                          className="btn btn-primary"
-                        >
-                          Deposit/Withdraw
-                        </button>
+                        <div className="text-center">
+                          <button
+                            onClick={() => displayModal(symbol)}
+                            className="btn btn-primary"
+                          >
+                            Deposit/Withdraw
+                          </button>
+                        </div>
                         <Modal
                           show={showModal}
                           onClose={() => setShowModal(false)}
@@ -219,8 +222,8 @@ function App() {
               <img
                 src={logo}
                 alt="CryptoVault Logo"
-                width="200px"
-                height="200"
+                width="100px"
+                height="100px"
               />
             </div>
             <p className="element">

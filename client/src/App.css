@@ -2,26 +2,38 @@
   text-align: center;
 }
 
+.logo-app {
+  position: relative;
+  top: -150px;
+  right: 350px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media only screen and (max-width: 768px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .task {
-  margin-bottom: 30px;
-  font-size: 100px;
+  position: relative;
+  top: -100px;
+  right: 200px;
 }
 
 .list-group {
   width: 600px;
   height: 400px;
 }
+
+.list-group-item {
+  justify-content: center;
+}
+
 .element {
   width: 600px;
   padding: 5px;

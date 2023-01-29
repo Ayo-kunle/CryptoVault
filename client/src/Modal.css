@@ -22,3 +22,12 @@
 .modal-title {
   margin: auto;
 }
+
+@media only screen and (max-width: 766px) {
+
+  .modal-content {
+    position: relative;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}
